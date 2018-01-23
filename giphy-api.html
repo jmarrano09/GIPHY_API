@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Buttons</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+  <!-- 1 --> <button data-animal="cat">cat</button>
+  <!-- 2 --> <button data-animal="dog">dog</button>
+  <!-- 3 --> <button data-animal="bird">bird</button>
+  <!-- 4 --> <button data-animal="dolphin">dolphin</button>
+  <!-- 5 --> <button data-animal="fish">fish</button>
+  <!-- 6 --> <button data-animal="cheetah">cheetah</button>
+  <!-- 7 --> <button data-animal="lion">lion</button>
+  <!-- 8 --> <button data-animal="tiger">tiger</button>
+  <!-- 9 --> <button data-animal="snake">snake</button>
+  <!-- 10 --> <button data-animal="lizard">lizard</button>  
+  </div>
+  
+
+  <!-- <table style="width:100%">
+  <tr>
+    <th></th>
+    <th></th> 
+    <th>
+      <form>
+        <input type="text" name="firstname" value="Mickey">
+        <input type="submit" value="Submit">
+      </form> 
+    </th>
+  </tr>
+  </table> -->
+
+<div class="container-fluid">
+    <div class="row" id="buttons"></div><!--end buttons row-->
+    <div class="row" id="app-main">
+      <div class="col-7" id="image-display">
+      </div><!--end image display column-->
+      <div class="col-5" id="add-button">
+        <form action="javascript:inputForm()">
+          <input id="search-form" type="text" >
+          <input id="button-add" class="btn btn-secondary" value="Add Button" type="submit">
+        </form>
+      </div>
+    </div><!--end app-main row-->
+  </div><!--end body container-->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="javascript.js"></script>
+  
+
+ 
+  <div id="gifs-appear-here"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script2.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
